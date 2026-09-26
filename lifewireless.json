@@ -1,0 +1,22 @@
+{
+  "provider": "Life Wireless",
+  "contact": {
+    "phone": "1-888-543-3620",
+    "email": "support@lifewireless.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.lifewireless.com",
+    "method": "POST",
+    "required_fields": [
+      "full_name",
+      "dob",
+      "address",
+      "last4_ssn",
+      "email",
+      "phone",
+      "income",
+      "household_size",
+      "benefit_programs"
+    ]
+  }
+}
