@@ -1,0 +1,22 @@
+{
+  "engine": "Lifeline Intake Engine",
+  "version": "1.0.0",
+  "function": "applyForLifeline",
+  "logic": {
+    "load_providers": "Read all *.json provider files in repo",
+    "build_payload": "Merge userPacket with provider metadata",
+    "submit": "POST payload to provider.auto_apply.endpoint",
+    "collect_results": "Store status, response text, and provider name"
+  },
+  "fields_required": [
+    "full_name",
+    "dob",
+    "address",
+    "last4_ssn",
+    "email",
+    "phone",
+    "income",
+    "household_size",
+    "benefit_programs"
+  ]
+}
