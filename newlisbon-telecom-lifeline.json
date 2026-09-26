@@ -1,0 +1,16 @@
+{
+  "provider": "New Lisbon Telecom Lifeline",
+  "contact": {
+    "phone": "1-765-332-2463",
+    "email": "lifeline@newlisbon.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.newlisbon.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
