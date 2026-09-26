@@ -1,0 +1,22 @@
+{
+  "provider": "Gen Mobile",
+  "contact": {
+    "phone": "1-833-528-1380",
+    "email": "care@genmobile.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.genmobile.com",
+    "method": "POST",
+    "required_fields": [
+      "full_name",
+      "dob",
+      "address",
+      "last4_ssn",
+      "email",
+      "phone",
+      "income",
+      "household_size",
+      "benefit_programs"
+    ]
+  }
+}
