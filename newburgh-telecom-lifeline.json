@@ -1,0 +1,16 @@
+{
+  "provider": "Newburgh Telecom Lifeline",
+  "contact": {
+    "phone": "1-812-853-5000",
+    "email": "lifeline@newburghtelecom.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.newburghtelecom.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
