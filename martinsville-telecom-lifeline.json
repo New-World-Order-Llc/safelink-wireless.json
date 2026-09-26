@@ -1,0 +1,16 @@
+{
+  "provider": "Martinsville Telecom Lifeline",
+  "contact": {
+    "phone": "1-765-342-3553",
+    "email": "lifeline@martinsvilletelecom.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.martinsvilletelecom.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
