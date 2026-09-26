@@ -1,0 +1,16 @@
+{
+  "provider": "Harrison Telecom Lifeline",
+  "contact": {
+    "phone": "1-812-738-2000",
+    "email": "lifeline@harrisontelecom.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.harrisontelecom.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
