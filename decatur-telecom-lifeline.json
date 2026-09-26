@@ -1,0 +1,16 @@
+{
+  "provider": "Decatur Telecom Lifeline",
+  "contact": {
+    "phone": "1-260-724-4021",
+    "email": "lifeline@decaturtelecom.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.decaturtelecom.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
