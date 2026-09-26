@@ -1,0 +1,16 @@
+{
+  "provider": "AdamsWells Telecom Lifeline",
+  "contact": {
+    "phone": "1-260-692-6185",
+    "email": "lifeline@adamswells.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.adamswells.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
