@@ -1,0 +1,16 @@
+{
+  "provider": "PSC Telecom Lifeline",
+  "contact": {
+    "phone": "1-812-358-4000",
+    "email": "lifeline@psctelecom.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://www.psctelecom.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
