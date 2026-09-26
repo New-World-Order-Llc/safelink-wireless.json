@@ -1,0 +1,16 @@
+{
+  "provider": "Google Fi Lifeline",
+  "contact": {
+    "phone": "1-844-825-5234",
+    "email": "fi-support@google.com"
+  },
+  "auto_apply": {
+    "endpoint": "https://fi.google.com/lifeline",
+    "method": "POST",
+    "required_fields": [
+      "full_name","dob","address","last4_ssn",
+      "email","phone","income","household_size",
+      "benefit_programs"
+    ]
+  }
+}
